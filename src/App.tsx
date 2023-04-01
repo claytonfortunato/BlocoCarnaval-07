@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+
+import * as C from "./style";
+
 function App() {
   return (
     <div className="App">
-      <h1>AOBA!</h1>
+      <Header />
     </div>
   );
 }
