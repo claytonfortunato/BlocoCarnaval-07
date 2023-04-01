@@ -20,3 +20,19 @@ export const Container = styled.div`
     right: 0;
   }
 `;
+
+export const Content = styled.div``;
+
+export const Box = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    color: #e45858;
+    text-transform: uppercase;
+  }
+
+  span {
+    color: #6246ea;
+  }
+`;
