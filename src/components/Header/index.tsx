@@ -2,6 +2,7 @@ import ilustra01 from "../../assets/ilustra-01.svg";
 import ilustra02 from "../../assets/ilustra-02.svg";
 import location from "../../assets/icon/location.png";
 import search from "../../assets/icon/Vector.png";
+import arrow from "../../assets/icon/arrow-down.png";
 
 import * as C from "./style";
 
@@ -33,6 +34,7 @@ const Header = () => {
             <option value="Rio de Janeiro">Rio de Janeiro</option>
             <option value="Porto Alegre">Porto Alegre</option>
           </select>
+          <img src={arrow} alt="" />
         </C.ContainerSelect>
         <C.Button>Buscar agora</C.Button>
       </C.ContentSearch>

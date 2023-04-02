@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 33.25rem;
-  background: #333;
+  background: #f4f4ff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,6 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 62.063rem;
-  height: 20.75rem;
   z-index: 50;
 `;
 
@@ -61,6 +60,8 @@ export const ContentSearch = styled.div`
   margin-top: 40px;
   padding: 40px;
   border-radius: 10px;
+  z-index: 10;
+  box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.2);
 `;
 
 export const Input = styled.div`
@@ -78,6 +79,8 @@ export const Input = styled.div`
     font-weight: 400;
     border: none;
     background: #f4f4ff;
+    outline: none;
+    color: #828282;
   }
 `;
 
@@ -89,16 +92,25 @@ export const ContainerSelect = styled.div`
   padding: 12px 8px;
   background: #f4f4ff;
   border-radius: 6px;
+
   select {
+    width: 100%;
+    -webkit-appearance: none !important;
     border: none;
     background: #f4f4ff;
+    color: #828282;
+    font-size: 16px;
+    outline: none;
+    option {
+      color: #828282;
+    }
   }
 `;
 
 export const Button = styled.button`
   display: flex;
   align-items: center;
-  flex: 1 1 0%;
+
   background: #6246ea;
   padding: 12px 32px;
   font-weight: bold;
@@ -108,7 +120,9 @@ export const Button = styled.button`
   text-transform: uppercase;
   line-height: 1.5rem;
   border: none;
+  transition: 0.3s all ease-out;
   &:hover {
     cursor: pointer;
+    color: #333;
   }
 `;
