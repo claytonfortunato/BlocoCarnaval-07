@@ -21,7 +21,11 @@ export const Container = styled.div`
   }
 `;
 
-export const Content = styled.div``;
+export const Content = styled.div`
+  width: 62.063rem;
+  height: 20.75rem;
+  z-index: 50;
+`;
 
 export const Box = styled.div`
   display: flex;
@@ -48,12 +52,15 @@ export const Box = styled.div`
 `;
 
 export const ContentSearch = styled.div`
+  max-width: 980px;
+  width: 100%;
   background: #fff;
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 10px;
 `;
 
 export const Input = styled.div`
@@ -63,6 +70,15 @@ export const Input = styled.div`
   gap: 10px;
   padding: 12px 8px;
   background: #f4f4ff;
+  border-radius: 6px;
+  input {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    border: none;
+    background: #f4f4ff;
+  }
 `;
 
 export const ContainerSelect = styled.div`
@@ -72,13 +88,27 @@ export const ContainerSelect = styled.div`
   gap: 10px;
   padding: 12px 8px;
   background: #f4f4ff;
+  border-radius: 6px;
+  select {
+    border: none;
+    background: #f4f4ff;
+  }
 `;
 
 export const Button = styled.button`
   display: flex;
+  align-items: center;
   flex: 1 1 0%;
   background: #6246ea;
-  padding: 12px 0px;
+  padding: 12px 32px;
   font-weight: bold;
+  font-size: 14px;
   color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
 `;

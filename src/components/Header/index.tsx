@@ -19,11 +19,11 @@ const Header = () => {
       </C.Content>
       <C.ContentSearch>
         <C.Input>
-          <img src={search} alt="" />
+          <img src={search} alt="icon search" />
           <input type="text" placeholder="Pesquisar cidade" />
         </C.Input>
         <C.ContainerSelect>
-          <img src={location} alt="" />
+          <img src={location} alt="icon location" />
           <select>
             <option value="">Selecione uma cidade</option>
             <option value="São Paulo">São Paulo</option>
