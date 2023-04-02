@@ -5,9 +5,9 @@ export const Container = styled.div`
   height: 33.25rem;
   background: #333;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-
+  justify-content: center;
   .ImageOne {
     position: absolute;
     top: 0;
@@ -36,3 +36,13 @@ export const Box = styled.div`
     color: #6246ea;
   }
 `;
+
+export const ContentSearch = styled.div`
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const Input = styled.div``;
+
+export const ContainerSelect = styled.div``;

@@ -15,6 +15,16 @@ const Header = () => {
           </h1>
         </C.Box>
       </C.Content>
+      <C.ContentSearch>
+        <C.Input>
+          <input type="text" placeholder="Pesquisar cidade" />
+        </C.Input>
+        <C.ContainerSelect>
+          <select>
+            <option value=""></option>
+          </select>
+        </C.ContainerSelect>
+      </C.ContentSearch>
       <img src={ilustra02} alt="" className="ImageTwo" />
     </C.Container>
   );
