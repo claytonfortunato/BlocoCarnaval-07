@@ -27,9 +27,19 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
   p {
     color: #e45858;
     text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+    line-height: 3.75rem;
+    font-weight: bold;
+    max-width: 40.438rem;
+    text-align: center;
   }
 
   span {
@@ -41,8 +51,34 @@ export const ContentSearch = styled.div`
   background: #fff;
   display: flex;
   justify-content: space-between;
+  gap: 24px;
+  margin-top: 10px;
+  padding: 10px;
 `;
 
-export const Input = styled.div``;
+export const Input = styled.div`
+  display: flex;
+  align-items: center;
+  flex: 1 1 0%;
+  gap: 10px;
+  padding: 12px 8px;
+  background: #f4f4ff;
+`;
 
-export const ContainerSelect = styled.div``;
+export const ContainerSelect = styled.div`
+  display: flex;
+  align-items: center;
+  flex: 1 1 0%;
+  gap: 10px;
+  padding: 12px 8px;
+  background: #f4f4ff;
+`;
+
+export const Button = styled.button`
+  display: flex;
+  flex: 1 1 0%;
+  background: #6246ea;
+  padding: 12px 0px;
+  font-weight: bold;
+  color: #fff;
+`;
