@@ -8,10 +8,11 @@ const Main = () => {
       <C.BoxTitle>
         <h2>Blocos recomendados</h2>
         <C.BoxButton>
-          <button>Lista</button>
+          <button className="button-list">Lista</button>
           <button>Mapa</button>
         </C.BoxButton>
       </C.BoxTitle>
+      <div></div>
     </C.Container>
   );
 };
