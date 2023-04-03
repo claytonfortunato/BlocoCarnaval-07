@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const BoxTitle = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 14px;
+  margin: 10px;
   gap: 16px;
   h3 {
     font-size: 20px;

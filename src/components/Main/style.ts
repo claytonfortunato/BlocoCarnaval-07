@@ -1,7 +1,14 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Section = styled.div`
   width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+`;
+
+export const Container = styled.div`
+  padding-bottom: 12px;
 `;
 
 export const BoxTitle = styled.div`
@@ -29,6 +36,14 @@ export const BoxButton = styled.div`
     color: #6246ea;
     font-weight: 700;
     letter-spacing: 0.03rem;
+    background: #fff;
+
+    &:hover {
+      background: #6246ea;
+      color: #fff;
+      transition: 0.3s all ease-out;
+      border-radius: 6px;
+    }
   }
 
   .button-list {
