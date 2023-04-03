@@ -59,4 +59,9 @@ export const ContainerCard = styled.div`
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 32px;
   margin-top: 2.5rem;
+
+  @media screen and (max-width: 1238px) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 `;
