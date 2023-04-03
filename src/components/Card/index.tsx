@@ -14,16 +14,16 @@ const Card = ({ Image, title, description, city, abbre }: Props) => {
   return (
     <C.Container>
       <img src={Image} alt="carnival block image" />
-      <div>
+      <C.BoxTitle>
         <h3>{title}</h3>
         <span>{description}</span>
-        <div>
+        <C.BoxLocation>
           <img src={location} alt="icon search" />
           <span>
             {city} - {abbre}
           </span>
-        </div>
-      </div>
+        </C.BoxLocation>
+      </C.BoxTitle>
     </C.Container>
   );
 };
