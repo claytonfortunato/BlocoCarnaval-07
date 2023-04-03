@@ -41,7 +41,7 @@ export const BoxButton = styled.div`
     &:hover {
       background: #6246ea;
       color: #fff;
-      transition: 0.3s all ease-out;
+      transition: 0.5s all ease-out;
       border-radius: 6px;
     }
   }
@@ -50,6 +50,7 @@ export const BoxButton = styled.div`
     background: #6246ea;
     border-radius: 6px;
     color: #fff;
+    margin-right: 8px;
   }
 `;
 

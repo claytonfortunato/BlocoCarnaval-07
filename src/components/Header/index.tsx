@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import ilustra01 from "../../assets/ilustra-01.svg";
 import ilustra02 from "../../assets/ilustra-02.svg";
 import location from "../../assets/icon/location.png";
@@ -7,6 +9,9 @@ import arrow from "../../assets/icon/arrow-down.png";
 import * as C from "./style";
 
 const Header = () => {
+  const [nameBloco, setNameBloco] = useState("");
+  const [city, setCity] = useState("");
+
   return (
     <C.Container>
       <img src={ilustra01} alt="" className="ImageOne" />
@@ -21,11 +26,20 @@ const Header = () => {
       <C.ContentSearch>
         <C.Input>
           <img src={search} alt="icon search" />
-          <input type="text" placeholder="Pesquisar cidade" />
+          <input
+            type="text"
+            placeholder="Pesquisar cidade"
+            value={nameBloco}
+            onChange={(e) => setNameBloco(e.target.value)}
+          />
         </C.Input>
         <C.ContainerSelect>
           <img src={location} alt="icon location" />
-          <select>
+          <select
+            name="select"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+          >
             <option value="">Selecione uma cidade</option>
             <option value="São Paulo">São Paulo</option>
             <option value="Florianópolis">Florianópolis</option>

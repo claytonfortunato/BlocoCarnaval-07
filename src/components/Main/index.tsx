@@ -1,17 +1,10 @@
-import { useContext } from "react";
-
 import { Blocos } from "../../data/blocos";
-import { SearchBlocosContext } from "../../context/SearchBlocosContext";
-
-import location from "../../assets/icon/location.png";
 
 import Card from "../Card";
 
 import * as C from "./style";
 
 const Main = () => {
-  const { blocosFilter } = useContext(SearchBlocosContext);
-
   return (
     <C.Section>
       <C.Container>
