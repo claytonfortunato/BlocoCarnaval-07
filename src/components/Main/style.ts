@@ -8,6 +8,10 @@ export const BoxTitle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  h2 {
+    font-size: 32px;
+  }
 `;
 
 export const BoxButton = styled.div`
@@ -32,4 +36,11 @@ export const BoxButton = styled.div`
     border-radius: 6px;
     color: #fff;
   }
+`;
+
+export const ContainerCard = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  margin-top: 2.5rem;
 `;
