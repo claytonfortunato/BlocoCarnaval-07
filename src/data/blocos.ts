@@ -3,7 +3,7 @@ export const Blocos = [
     title: "O Python do vovô não sobe mais",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "../src/assets/img-bloco/bloco-01.svg",
+    image: "../src/assets/img-bloco/bloco-01.png",
     city: "São Paulo",
     abbreviation: "SP",
   },
