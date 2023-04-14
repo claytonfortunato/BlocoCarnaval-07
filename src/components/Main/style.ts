@@ -33,23 +33,23 @@ export const BoxButton = styled.div`
     font-size: 14px;
     line-height: 10px;
     padding: 10px;
-    color: #6246ea;
+    color: ${(props) => props.theme.purple};
     font-weight: 700;
     letter-spacing: 0.03rem;
-    background: #fff;
+    border-radius: 6px;
 
     &:hover {
-      background: #6246ea;
-      color: #fff;
+      background: ${(props) => props.theme.purple};
+      color: ${(props) => props.theme.white};
       transition: 0.5s all ease-out;
       border-radius: 6px;
     }
   }
 
   .button-list {
-    background: #6246ea;
+    background-color: ${(props) => props.theme.purple};
     border-radius: 6px;
-    color: #fff;
+    color: ${(props) => props.theme.white};
     margin-right: 8px;
   }
 `;

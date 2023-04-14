@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 33.25rem;
-  background: #f4f4ff;
+  background: ${(props) => props.theme.gray100};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +46,7 @@ export const Box = styled.div`
   }
 
   span {
-    color: #6246ea;
+    color: ${(props) => props.theme.purple};
   }
 `;
 
@@ -90,7 +90,7 @@ export const ContainerSelect = styled.div`
   flex: 1 1 0%;
   gap: 10px;
   padding: 12px 8px;
-  background: #f4f4ff;
+  background: ${(props) => props.theme.gray100};
   border-radius: 6px;
 
   select {
