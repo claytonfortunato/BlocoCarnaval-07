@@ -13,7 +13,7 @@ type Props = {
 const Card = ({ Image, title, description, city, abbre }: Props) => {
   return (
     <C.Container>
-      <img src={Image} alt="carnival block image" />
+      <img src={Image} alt="carnaval block image" />
       <C.BoxTitle>
         <h3>{title}</h3>
         <span>{description}</span>
