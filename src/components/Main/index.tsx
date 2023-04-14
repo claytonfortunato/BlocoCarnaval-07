@@ -1,5 +1,3 @@
-// import { Blocos } from "../../data/blocos";
-
 import { useState } from "react";
 
 import Card from "../Card";
@@ -12,7 +10,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "O Python do vovô não sobe mais",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "src/assets/bloco-01.png",
+    image: "/img/bloco-01.png",
     city: "São Paulo",
     abbreviation: "SP",
   },
