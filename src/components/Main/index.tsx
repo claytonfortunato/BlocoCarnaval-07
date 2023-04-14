@@ -18,7 +18,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "Todo mundo Null",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "src/assets/bloco-02.svg",
+    image: "/img/bloco-02.svg",
     city: "Florianópolis",
     abbreviation: "SC",
   },
@@ -26,7 +26,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "Hoje dou exception",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "./src/assets/bloco-03.svg",
+    image: "/img/bloco-03.svg",
     city: "Curitiba",
     abbreviation: "PR",
   },
@@ -34,7 +34,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "Manda Node",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "./src/assets/bloco-04.svg",
+    image: "/img/bloco-04.svg",
     city: "Salvador",
     abbreviation: "BA",
   },
@@ -42,7 +42,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "Só no back-end",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "./src/assets/bloco-05.svg",
+    image: "/img/bloco-05.svg",
     city: "São Paulo",
     abbreviation: "SP",
   },
@@ -50,7 +50,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "Esse anel não é de Ruby",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "./src/assets/bloco-06.svg",
+    image: "/img/bloco-06.svg",
     city: "São Paulo",
     abbreviation: "SP",
   },
@@ -58,7 +58,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "Pimenta no C# dos outros é refresco",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "./src/assets/bloco-07.svg",
+    image: "/img/bloco-07.svg",
     city: "Rio de Janeiro",
     abbreviation: "RJ",
   },
@@ -66,7 +66,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "EnCACHE aqui",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "./src/assets/bloco-08.svg",
+    image: "/img/bloco-08.svg",
     city: "Porto Alegre",
     abbreviation: "RS",
   },
@@ -74,7 +74,7 @@ export const CarnivalGroupList: CarnivalGroup[] = [
     title: "Não valho nada mas JAVA li",
     description:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-    image: "./src/assets/bloco-09.svg",
+    image: "/img/bloco-09.svg",
     city: "São Paulo",
     abbreviation: "SP",
   },
